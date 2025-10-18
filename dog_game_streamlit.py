@@ -4,7 +4,8 @@ import random
 
 st.set_page_config(page_title="犬の価値観ゲーム", layout="centered")
 st.title("🐶 犬の価値観ゲーム")
-st.write("質問に答えて、あなたの犬タイプを見つけましょう！")
+st.write("次の5つの質問に答えて、あなたの犬タイプを見つけましょう!")
+
 
 dogs = ["シベリアンハスキー", "ラブラドールレトリバー", "ジャーマンシェパード",
         "ボーダーコリー", "ゴールデンレトリバー", "柴犬",
@@ -71,7 +72,7 @@ if st.button("犬タイプを判定する"):
             scores[dog] += b
 
     # スコア結果を表示（確認用）
-    st.write("=== スコア一覧（内部確認用） ===")
+    #st.write("=== スコア一覧（内部確認用） ===")
     sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     for d, s in sorted_scores:
         st.write(f"{d}: {s}")
@@ -99,8 +100,8 @@ st.warning("⚠️ 注意: このアプリはサンプル用です。結果は�
 st.markdown(
     """
     <p style='font-size:12px;color:gray;text-align:right'>
-    produced by 学生団体Yippee<br>
-    Special support: 麻布大学oneマルシェ
+    produced by 学生団体Yippee🐰<br>
+    Special Thanks: 麻布大学Oneマルシェ🐶
     </p>
     """,
     unsafe_allow_html=True
