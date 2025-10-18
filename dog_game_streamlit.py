@@ -97,6 +97,11 @@ st.warning("⚠️ 注意: このアプリはサンプル用です。結果は�
 
 # クレジット
 st.markdown(
-    "<p style='font-size:12px;color:gray;text-align:right'>produced by 学生団体Yippee</p>",
+    """
+    <div style='display:flex; justify-content:space-between; align-items:center; border-top:1px solid #ccc; padding-top:10px;'>
+        <span style='font-weight:bold; color:#2E86C1;'>produced by 学生団体Yippee</span>
+        <span style='font-style:italic; color:#117A65;'>スペシャルサポート: 麻布大学oneマルシェ</span>
+    </div>
+    """,
     unsafe_allow_html=True
 )
