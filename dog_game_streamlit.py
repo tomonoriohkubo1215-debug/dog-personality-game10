@@ -21,8 +21,8 @@ questions = [
      "△":["ジャックラッセルテリア","ボーダーコリー","キャバリアキングチャールズスパニエル"],
      "×":["柴犬","スタンダードプードル","ジャーマンシェパード"]},
     {"text":"3. なんでも計画してから行動する？",
-     "〇":["ジャーマンシェパード","スタンダードプードル","シベリアンハスキー","柴犬"],
-     "△":[ "ボーダーコリー","ゴールデンレトリバー", ],
+     "〇":["ジャーマンシェパード","スタンダードプードル","シベリアンハスキー"],
+     "△":[ "ボーダーコリー","ゴールデンレトリバー", "柴犬"],
      "×":["ジャックラッセルテリア","ラブラドールレトリバー", "キャバリアキングチャールズスパニエル","ビーグル"]},
     {"text":"4. 困った友達を助けたい？",
      "〇":["ゴールデンレトリバー","ラブラドールレトリバー","キャバリアキングチャールズスパニエル"],
@@ -98,10 +98,10 @@ st.warning("⚠️ 注意: このアプリはサンプル用です。結果は�
 # クレジット
 st.markdown(
     """
-    <div style='display:flex; justify-content:space-between; align-items:center; border-top:1px solid #ccc; padding-top:10px;'>
-        <span style='font-weight:bold; color:#2E86C1;'>produced by 学生団体Yippee</span>
-        <span style='font-style:italic; color:#117A65;'>スペシャルサポート: 麻布大学oneマルシェ</span>
-    </div>
+    <p style='font-size:12px;color:gray;text-align:right'>
+    produced by 学生団体Yippee<br>
+    Special support: 麻布大学oneマルシェ
+    </p>
     """,
     unsafe_allow_html=True
 )
