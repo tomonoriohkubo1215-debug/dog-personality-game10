@@ -5,6 +5,7 @@ import random
 st.set_page_config(page_title="犬の価値観ゲーム", layout="centered")
 st.title("🐶 犬の価値観ゲーム")
 st.write("次の5つの質問に答えて、あなたの犬タイプを見つけましょう!")
+st.write("(柴犬とプードルが出やすいように少し変更しています 12:57更新)")
 
 
 dogs = ["シベリアンハスキー", "ラブラドールレトリバー", "ジャーマンシェパード",
